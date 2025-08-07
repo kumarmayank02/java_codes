@@ -1,0 +1,19 @@
+Resource Title: Java Packages (With Example)
+
+Website: GeeksforGeeks
+
+URL: https://www.geeksforgeeks.org/packages-in-java/
+
+Method	Description
+length()	Returns the number of characters in the string
+charAt(int index)	Returns the character at a specific index
+substring(int beginIndex)	Returns substring from the given index to end
+substring(int beginIndex, int endIndex)	Returns substring between the indexes
+equals(String another)	Compares two strings for content equality (case-sensitive)
+equalsIgnoreCase(String another)	Compares two strings ignoring case
+toLowerCase()	Converts all characters to lowercase
+toUpperCase()	Converts all characters to uppercase
+concat(String str)	Concatenates the specified string to the end
+contains(CharSequence s)	Checks if the sequence exists in the string
+replace(char oldChar, char newChar)	Replaces characters in the string
+trim()	Removes leading and trailing whitespace

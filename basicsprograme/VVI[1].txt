@@ -1,0 +1,37 @@
+IT interview nikalne ke liye kuch important cheezein hain jo tumhe strong banayengi
+
+1. Technical Skills (Sabse Important)
+Programming Language – C, Java (Tum already Java jaante ho, ise aur strong banao). Python bhi seekh sakte ho agar zaroori lage.  
+Data Structures & Algorithms (DSA)– Sorting, Searching, Stack, Queue, Linked List, Trees, Graphs ye sab practice karo. Ye sabse important hota hai IT interviews me.  
+DBMS (Database)– SQL queries likhna seekho (Joins, Normalization, Indexing).  
+Operating System (OS) – Process, Threads, Scheduling (FCFS, SJF, Round Robin), Deadlocks ye sab clear rakho.  
+Computer Networks (CN) – TCP/IP, HTTP, DNS, IP addressing ye sab ka basic pata hona chahiye.  
+System Design (For High-Level Interviews)– Low-Level Design (LLD) aur High-Level Design (HLD) ka concept samjho.  
+
+2. Aptitude & Logical Reasoning
+Bahut saari IT companies pehle aptitude test leti hain. Isme ye aata hai:  
+ Mathematical Reasoning – Profit & Loss, Time & Work, Percentage, Speed & Distance.  
+ Logical Reasoning – Pattern Recognition, Coding-Decoding, Blood Relations.  
+ Verbal Ability – English comprehension aur sentence correction.  
+
+3. Coding Practice (Most Important for IT Jobs) 
+Online Platforms: Leetcode, CodeChef, CodeForces, GeeksforGeeks par practice karo.  
+Daily Problem-Solving Habit Banao – Kam se kam 2-3 questions solve karo har din.  
+
+4. Resume aur Projects
+Resume me sirf wahi likho jo tumhe aata ho(Koi bhi interviewer resume se questions poochta hai).  
+ 2-3 ache projects banao jo industry-standard ke ho. (Web development, Android App, or Data Science ka project)  
+ GitHub pe apna code daalo, LinkedIn update rakho.  
+
+5. Communication Skills & Mock Interviews
+English me practice karo – Kyunki interview English me hoga, to answer confidently dena seekho.  
+Mock Interviews – Online ya friends ke saath practice karo.  
+
+6. HR Interview Preparation
+Common HR Questions prepare karo jaise:  
+"Tell me about yourself"  
+"Why should we hire you?"  
+"What are your strengths and weaknesses?"  
+"Where do you see yourself in 5 years?"  
+
+Agar tum ye sab cheezein acche se kar loge, to IT interview nikalna aasan ho jayega. **Consistency aur practice hi key hai! 🚀🔥

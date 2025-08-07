@@ -1,0 +1,149 @@
+ Notes Only For Java
+ 
+Method Call Ways -:
+
+Java me methods ko call karne ke alag-alag tarike hote hain. Ye depend karta hai ki method static hai ya non-static, aur method same class me hai ya kisi aur class me
+
+ 1. Direct Call (Agar Method Same Class me Ho)
+Agar method static hai aur main() method bhi same class me hai, to direct call kar sakte hain.
+
+Example:
+java
+Copy
+Edit
+public class Main {
+    static void greetUser() {  // Static method
+        System.out.println("Welcome User!");
+    }
+
+    public static void main(String[] args) {
+        greetUser();  // Direct method call
+    }
+}
+✅ Direct method call sirf static methods ke liye hota hai.
+
+
+🔹 2. Class Name Se Call (Static Method ke liye)
+Agar method static hai, to usko ClassName.methodName() se bhi call kar sakte hain.
+
+Example:
+java
+Copy
+Edit
+public class Main {
+    static void greetUser() {
+        System.out.println("Welcome User!");
+    }
+
+    public static void main(String[] args) {
+        Main.greetUser();  // Class name se method call kiya
+    }
+}
+✅ Ye tarika tab useful hota hai jab method dusri class me ho.
+
+🔹 3. Object Banakar Call Karna (Non-Static Method ke liye)
+Agar method non-static hai, to pehle object banana padega, fir object.methodName() se call karenge.
+
+Example:
+java
+Copy
+Edit
+public class Main {
+    void greetUser() {  // Non-static method
+        System.out.println("Welcome User!");
+    }
+
+    public static void main(String[] args) {
+        Main obj = new Main();  // Object banaya
+        obj.greetUser();  // Object se method call kiya
+    }
+}
+✅ Non-static methods directly call nahi hote, unko object se call karna padta hai.
+
+🔹 4. Dusri Class Ke Static Method Ko Call Karna
+Agar method kisi aur class me hai aur static hai, to ClassName.methodName() se call kar sakte hain.
+
+Example:
+java
+Copy
+Edit
+class Helper {
+    static void showMessage() {
+        System.out.println("Hello from Helper class!");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Helper.showMessage();  // Dusri class ke static method ko class name se call kiya
+    }
+}
+✅ Agar method static hai, to usko bina object ke class name se call kar sakte hain.
+
+
+🔹 5. Dusri Class Ke Non-Static Method Ko Call Karna
+Agar method non-static hai aur dusri class me hai, to pehle object banana padega, fir call karenge.
+
+Example:
+java
+Copy
+Edit
+class Helper {
+    void showMessage() {  // Non-static method
+        System.out.println("Hello from Helper class!");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Helper obj = new Helper();  // Dusri class ka object banaya
+        obj.showMessage();  // Object se method call kiya
+    }
+}
+✅ Non-static method ko hamesha object se hi call karna hota hai.
+
+🔹 6. Method Call with Parameters (Arguments Pass Karna)
+Agar method parameters accept karta hai, to usko values pass karke call karna hota hai.
+
+Example:
+java
+Copy
+Edit
+public class Main {
+    static void greetUser(String name) {  // Method with parameter
+        System.out.println("Welcome " + name + "!");
+    }
+
+    public static void main(String[] args) {
+        greetUser("Rahul");  // Argument pass kiya
+        greetUser("Priya");
+    }
+}
+Output:
+nginx
+Copy
+Edit
+Welcome Rahul!
+Welcome Priya!
+✅ Jab bhi method parameter leta hai, to usko values pass karni hoti hain.
+
+🔹 7. Recursive Method Call (Method Apne Aapko Call Kare)
+Jab ek method khud ko hi call kare, to usko recursion bolte hain.
+
+Example: Factorial Using Recursion
+java
+Copy
+Edit
+public class Main {
+    static int factorial(int n) {
+        if (n == 0) return 1;  // Base condition
+        return n * factorial(n - 1);  // Method apne aapko call kar raha hai
+    }
+
+    public static void main(String[] args) {
+        int result = factorial(5);
+        System.out.println("Factorial: " + result);
+    }
+}
+✅ Recursion ka use complex problems solve karne ke liye hota hai, jaise factorial, Fibonacci series, etc.
+
